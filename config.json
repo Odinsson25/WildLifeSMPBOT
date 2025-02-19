@@ -1,0 +1,92 @@
+{
+	"type": "json",
+	"testServer": "1340459077842767944",
+	"clientId": "1218969227818434621",
+	"ownerId": "938925825355571251",
+	"supportInviteCode": "QvuqByYfn8",
+	"devs": ["938925825355571251", "1250683668289294430"],
+	"roles": {
+		"levels": {
+			"5": "1205220731571413063",
+			"20": "1205220831542911108",
+			"50": "1205220848538091530",
+			"100": "1205220864434634752"
+		},
+		"supportTeam": "1340459078232834169",
+		"management": "1340459078232834173",
+		"owner": "1340459078232834173",
+		"dev": "1341152681930002592"
+	},
+	"messages": {
+		"mainError": "Something went wrong.",
+		"permsError": "You do not have enough permissions to execute this!",
+		"notSetup": "This module is not set up correctly."
+	},
+	"colors": {
+		"mainColor": "#38B8FA"
+	},
+	"channels": {
+		"rules": "1340459078647943227",
+		"support": "1340459078232834178",
+		"welcome": "1340459078647943226"
+	},
+	"configs": {
+		"xpFactor": 200
+	},
+	"badges": {
+		"partner": {
+			"id": "partner",
+			"name": "Partner",
+			"display": {
+				"text": "Partner",
+				"emoji": ""
+			},
+			"details": "Official partner with WildlandsMC."
+		},
+		"paid_supporter": {
+			"id": "paid_supporter",
+			"name": "Paid Supporter",
+			"display": {
+				"text": "Paid Supporter",
+				"emoji": ""
+			},
+			"details": "Paid supporter from WildlandsMC."
+		},
+		"vip": {
+			"id": "vip",
+			"name": "VIP",
+			"display": {
+				"text": "Very Important Person",
+				"emoji": "<:Star_yellow:1222499829620539464>"
+			},
+			"details": "Official WildlandsMC VIP."
+		},
+		"staff": {
+			"id": "staff",
+			"name": "Staff Team",
+			"display": {
+				"text": "Official Staff Team",
+				"emoji": "<:safety_blue:1222500069262229626>"
+			},
+			"details": "Official WildlandsMC Support Team."
+		},
+		"developer": {
+			"id": "developer",
+			"name": "Developer",
+			"display": {
+				"text": "Developer",
+				"emoji": "<:BotDev_BlurpleGrey:1222500567125856277>"
+			},
+			"details": "Official WildlandsMC Developer."
+		},
+		"management": {
+			"id": "management",
+			"name": "",
+			"display": {
+				"text": "Management",
+				"emoji": "<:addmod_blue:1222499938978500741>"
+			},
+			"details": "Official Manager from WildlandsMC."
+		}
+	}
+}
