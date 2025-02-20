@@ -10,3 +10,4 @@ dist
 .prettierrc
 commandkit.mjs
 .upload
+*.zip
