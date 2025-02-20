@@ -67,21 +67,21 @@ export default async function (
 				member.user.displayAvatarURL(),
 			url: `https://discord.com/users/${member.user.id}/`,
 		})
-		.setTitle("Welkom in de server!")
+		.setTitle("Welcome to the server!")
 		.setColor((jsonConfig.colors.mainColor as ColorResolvable) || null)
 		.setThumbnail(member.user.avatarURL())
-		.setDescription(`Welkom ${member}!\nNeem een kijkje in de server!`)
+		.setDescription(`Welcome ${member}!\nTake a look in the server!!`)
 		.addFields(
 			{
-				name: "Regels",
-				value: `Lees onze regels door in <#${
+				name: "Rules",
+				value: `Take a look at our server rules in <#${
 					member.guild.rulesChannel?.id || jsonConfig.channels.rules
 				}>`,
 				inline: true,
 			},
 			{
-				name: "Hulp nodig?",
-				value: `We zijn er voor je! Maak een ticket aan in <#${jsonConfig.channels.support}>`,
+				name: "Need help?",
+				value: `We are there for you! Check out <#${jsonConfig.channels.support}>`,
 				inline: true,
 			}
 		)
@@ -92,10 +92,8 @@ export default async function (
 		.setTimestamp();
 
 	(
-		(member.guild.systemChannel ||
-			member.guild.channels.cache.get(jsonConfig.channels.welcome) ||
-			(await member.guild.channels.fetch(
-				jsonConfig.channels.welcome
-			))) as TextChannel
+		(member.guild.channels.cache.get(jsonConfig.channels.welcome) ||
+			(await member.guild.channels.fetch(jsonConfig.channels.welcome)) ||
+			member.guild.systemChannel) as TextChannel
 	)?.send({ embeds: [joinEmbed] });
 }
