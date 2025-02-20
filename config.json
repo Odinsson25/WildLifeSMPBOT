@@ -23,12 +23,28 @@
 		"notSetup": "This module is not set up correctly."
 	},
 	"colors": {
-		"mainColor": "#38B8FA"
+		"mainColor": "#774b26",
+		"success": "#0dd925",
+		"warning": "#ed8d07",
+		"alert": "#fff700",
+		"danger": "#cc1208",
+		"blue": "#0012b5",
+		"grey": {
+			"light": "#bfbfbf",
+			"normal": "#8f8f8f",
+			"dark": "#5e5e5e",
+			"darker": "#333333",
+			"moredark": "#1a1a1a"
+		}
 	},
 	"channels": {
 		"rules": "1340459078647943227",
 		"support": "1340459078232834178",
-		"welcome": "1340459078647943226"
+		"welcome": "1340459078647943226",
+		"logs": {
+			"join": "1342114185089384489",
+			"message": "1342123684709535764"
+		}
 	},
 	"configs": {
 		"xpFactor": 200
